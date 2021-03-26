@@ -17,7 +17,7 @@ public class A03Type {
 		
 		int a;
 		a = 3 // ok
-		a = true // not ok		
+//		a = true // not ok		
 
 	}
 
