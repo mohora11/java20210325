@@ -1,4 +1,4 @@
-package p02.lecture;
+package p02.textbook;
 
 public class ByteExample {
 	public static void main(String[] args) {
