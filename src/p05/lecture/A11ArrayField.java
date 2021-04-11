@@ -13,19 +13,19 @@ public class A11ArrayField {
 //		arr1[2] = 12;
 		for (int k = 0; k < 3; k++) {
 			arr1[k] = k + 10;
-			System.out.println("arr1[" + k + "]" + " = " + (k +10) );
+//			System.out.println("arr1[" + k + "]" + " = " + (k +10) );
 		}
-
-		arr2[0] = 100;
-		arr2[1] = 200;
-		arr2[2] = 300;
-		arr2[3] = 400;
-		arr2[4] = 500;
+//
+//		arr2[0] = 100;
+//		arr2[1] = 200;
+//		arr2[2] = 300;
+//		arr2[3] = 400;
+//		arr2[4] = 500;
 		
 		
 		for (int k = 0; k < 5; k++) {
-			arr2[k] = k + 100;
-			System.out.println("arr2[" + k + "]" + " = " + 100 * (k + 1));
+			arr2[k] = (k +1) * 100;
+//			System.out.println("arr2[" + k + "]" + " = " + 100 * (k + 1));
 		}
 
 		System.out.println("arr1 출력");
