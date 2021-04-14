@@ -1,4 +1,4 @@
-package p06.lecture.p3constructor;
+package p06.lecture.p3construtor;
 
 public class A01Constructor {
 	// 생성자(Constructor)

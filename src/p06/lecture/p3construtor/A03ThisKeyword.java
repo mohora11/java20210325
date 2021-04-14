@@ -1,4 +1,4 @@
-package p06.lecture.p3constructor;
+package p06.lecture.p3construtor;
 
 public class A03ThisKeyword {
 	// this : 앞으로 만들어질 객체의 참조변수를 대신하는 키워드

@@ -1,4 +1,4 @@
-package p06.lecture.p3constructor;
+package p06.lecture.p3construtor;
 
 public class A02constructor {
 	// 클래스는 적어도 하나의 생성자를 갖는다
