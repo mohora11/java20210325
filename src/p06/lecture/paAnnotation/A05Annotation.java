@@ -5,8 +5,14 @@ import java.lang.annotation.Target;
 
 @ForType
 public class A05Annotation {
-	@ForType
+	@ForField
+	@ForFieldAndMethod
 	int field;
+	
+	@ForFieldAndMethod
+	public void method1() {
+		
+	}
 }
 
 @Target(ElementType.TYPE)
@@ -16,5 +22,5 @@ public class A05Annotation {
 @Target(ElementType.FIELD)
 @interface ForField {}
 
-@Target()
-@interface ForField
+@Target({ElementType.FIELD, ElementType.METHOD})
+@interface ForFieldAndMethod {}
