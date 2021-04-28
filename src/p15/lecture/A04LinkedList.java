@@ -10,8 +10,8 @@ public class A04LinkedList {
 		list1.add(5);
 		list1.add(9);
 		
-		System.out.println(list1.size());
-		System.out.println(list1.get(2));
+		System.out.println(list1.size()); //size()문법 list1의 아이템 갯수를 표현
+		System.out.println(list1.get(2)); //get() 문법 list1의 2번째 index 소환
 		
 //		System.out.println(list1.get(3)); IndexOutOfBoundsException
 	}
