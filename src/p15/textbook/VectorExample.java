@@ -13,8 +13,8 @@ public class VectorExample {
 		list.add(new Board("제목4", "내용4", "글쓴이4"));
 		list.add(new Board("제목5", "내용5", "글쓴이5"));
 		
-		list.remove(2);
-		list.remove(3);
+		list.remove(2); //2번index삭제 제목3~~이 삭제됨
+		list.remove(3); //삭제된 상태에서 3번index 제목5~~가 삭제됨
 		
 		for(int i = 0; i < list.size(); i++) {
 			Board board = list.get(i);
